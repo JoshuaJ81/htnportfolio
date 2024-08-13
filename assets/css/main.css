@@ -2266,11 +2266,22 @@ input, select, textarea {
 /* Two */
 
 	#two {
+		background: url("images/overlay.png"), url("../../images/landscape4.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*Three*/ 
+
+	#three {
 		background: url("images/overlay.png"), url("../../images/whoiam.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+
 
 /* Contact */
 
