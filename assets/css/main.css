@@ -72,6 +72,22 @@ input, select, textarea {
 	appearance: none;
 }
 
+.alignit {
+
+	vertical-align: middle;
+	position:relative;
+	left: 1em;
+	top: 0;
+
+}
+
+@media (max-width: 500px) {
+    #header{
+        text-align: center;
+    }
+
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2258,7 +2274,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/htnguyenpic.jpeg");
+		background: url("images/overlay.png"), url("../../images/hngray1.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
