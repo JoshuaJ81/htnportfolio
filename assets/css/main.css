@@ -739,6 +739,8 @@ input, select, textarea {
 				border-radius: 3em 3em 0 0;
 				height: 4.5em;
 				margin-left: -2.5em;
+				background-color: #98c593;
+			border: solid 2px #2cad6d;
 			}
 
 		input[type="button"].anchored,
@@ -798,6 +800,8 @@ input, select, textarea {
 			.button.style2.down,
 			button.style2.down {
 				background-image: url("images/arrow.svg");
+				background-color: #98c593;
+			border: solid 2px #e5e6e7;
 			}
 
 /* Form */
@@ -1998,6 +2002,11 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			.main.style1 h3 {
+
+				font-size: 1.25em;
+			}
+
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
@@ -2102,6 +2111,14 @@ input, select, textarea {
 				border-color: #ffffff;
 			}
 
+			.main.primary .button.style2 {
+				border-color: #ffffff;
+			}
+
+			.main.main.style3.primary .button.style2:hover {
+				background-color: rgba(255, 255, 255, 0.125);
+			}
+
 				.main.dark .button.style2:hover {
 					background-color: rgba(255, 255, 255, 0.125);
 				}
@@ -2158,19 +2175,53 @@ input, select, textarea {
 
 				.main.style1 h2 {
 					font-size: 3em;
+					line-height: 2em;
 				}
 
 			.main.style2 {
 				padding: 6em 15px 6em 15px;
 			}
 
+			.main.style1 h3 {
+
+				font-size: 1.25em;
+				
+			}
+
+
+			input[type="button"].down,
+			input[type="submit"].down,
+			input[type="reset"].down,
+			.button.down,
+			button.down {
+				width: 5em;
+				height: 2em;
+				line-height: 2.5em;
+				padding: 0;
+				background-image: url("images/dark-arrow.svg");
+				background-position: center center;
+				background-repeat: no-repeat;
+				text-indent: -10em;
+				overflow: hidden;
+			}
+	
+				input[type="button"].down.anchored,
+				input[type="submit"].down.anchored,
+				input[type="reset"].down.anchored,
+				.button.down.anchored,
+				button.down.anchored {
+					bottom: 0;
+					border-bottom: 0;
+					border-radius: 3em 3em 0 0;
+					height: 3em;
+					margin-left: -2.5em;
+				}
+
 				.main.style2:before, .main.style2:after {
 					display: none !important;
 				}
 
-				.main.style2 .button.anchored {
-					display: none;
-				}
+				
 
 				.main.style2 .content {
 					width: 100%;
