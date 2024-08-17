@@ -84,6 +84,8 @@ input, select, textarea {
 @media (max-width: 500px) {
     #header{
         text-align: center;
+		vertical-align: middle;
+	position:relative;
     }
 
 }
@@ -638,7 +640,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		color: #39454b;
+		color: #272e31;
 		padding: 2em;
 	}
 
@@ -658,7 +660,8 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
+					background-color: rgba(240, 231, 231, .8);
+					color: #0e1112;
 				}
 
 		}
