@@ -677,7 +677,7 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(240, 231, 231, .8);
+					background-color: rgba(240, 231, 231, .9);
 					color: #0e1112;
 				}
 
@@ -1994,7 +1994,7 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 3.25em;
 				line-height: 1em;
 			}
 
