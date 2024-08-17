@@ -82,17 +82,28 @@ input, select, textarea {
 }
 
 @media (max-width: 500px) {
-    #header{
+    #header {
        
 	
 
 		text-align: center;
-					position: relative;
-					left: 0;
-					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
+	
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 2.5em;
+		line-height: 2.5em;
+
+					
     }
+
+	.alignit {
+
+		
+		left: 0;
+		
+	
+	}
 
 }
 
