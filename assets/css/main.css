@@ -1960,6 +1960,14 @@ input, select, textarea {
 
 /* Main */
 
+
+	.rounded-circle {
+
+	
+		border-radius: 50% !important;
+
+	}
+
 	.main {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2161,6 +2169,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.rounded-circle {
+
+	
+				border-radius: 50% !important;
+				margin-top: 1.5em;
+		
+			}
+
 			.main > .content br {
 				display: none;
 			}
@@ -2195,8 +2211,8 @@ input, select, textarea {
 			.button.down,
 			button.down {
 				width: 5em;
-				height: 2em;
-				line-height: 2.5em;
+				height: 5em;
+				line-height: 4.5em;
 				padding: 0;
 				background-image: url("images/dark-arrow.svg");
 				background-position: center center;
